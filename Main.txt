@@ -17,3 +17,4 @@ Fork is when another person (with another account) can create a total copy of th
 --> pull request to merge the document
 
 issue is where we leave comments, ask questions...
+When an issue is open, it can be closed by referring the issue number in the new commit solving the issue (#number)
