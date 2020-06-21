@@ -1,0 +1,14 @@
+On windows, we can use gitbash to use the commands (like the command prompt)
+
+cd: change directory
+pwd: print working directory
+ls: list the current directory
+
+$ pwd
+/c/Users/Pomme/AppData/Roaming/SPB_16.6
+This is the default directory of gitbash
+we can use the command "start ." to open the current directory
+the command "cd .." goes back the directory
+
+copy: "ctrl+ins"
+paste:"shift+ins"
