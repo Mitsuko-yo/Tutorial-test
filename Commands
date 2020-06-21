@@ -7,8 +7,40 @@ ls: list the current directory
 $ pwd
 /c/Users/Pomme/AppData/Roaming/SPB_16.6
 This is the default directory of gitbash
-we can use the command "start ." to open the current directory
-the command "cd .." goes back the directory
+we can use the command 
+"start ." to open the current directory
+"cd .." goes back the directory
 
 copy: "ctrl+ins"
 paste:"shift+ins"
+
+
+$ git clone http://blablabla.com   --> downloads and creates a clone of the existing repository on the computer
+modify and save on PC
+$ git status --> shows the status. When it is saved, we sort of "commit" but not properly so we have to commit the changes
+$ git commit -a -m "adding the changes"
+(-a for all, and -m for the message)
+
+When you commit, the difference between github and gitbash is that the PC does not know who you are so you have to identify (sign in)
+in order to tell the PC which user of git we are:
+$  git config --global user.email "you@example.com"
+$  git config --global user.name "Your Name"
+And it has to be exactly the same thing as what we signed in github
+
+$ git commit -a -m "adding the changes"
+If the commit works, we see:
+[master 9e66107] adding the changes
+ 1 file changed, 3 insertions(+)
+
+$ git log
+to see the log of the changes,  who changed what on the document
+
+If we get into a infinite loop (VIM text editor + command) 
+we can type 
+:q
+and we should get back to the initial point
+
+Now we have to push to github to save the changes to github interface
+we need to specify the remote and the branch
+$ git push origin master
+You have to identify yourself
