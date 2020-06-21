@@ -12,3 +12,6 @@ Edits
 More edits
 Every commit has a unique identifier: "hash"
 That's why we can track the history
+
+Main code -> insight -> network 
+we can see the master and branch in a graph
