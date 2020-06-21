@@ -65,6 +65,9 @@ To push the repository from local git to github, we can use the same commands
 $ git push origin master
 but we have to create the remote "origin" on github first
 
+To pull a change from github to local repository,
+$ git pull origin master
+
 
 
 
