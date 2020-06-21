@@ -14,6 +14,7 @@ we can use the command
 copy: "ctrl+ins"
 paste:"shift+ins"
 
+# Download git repository from github to PC and push requests from PC to github
 
 $ git clone http://blablabla.com   --> downloads and creates a clone of the existing repository on the computer
 modify and save on PC
@@ -44,3 +45,26 @@ Now we have to push to github to save the changes to github interface
 we need to specify the remote and the branch
 $ git push origin master
 You have to identify yourself
+
+# Make an existing folder a git repository from PC to github
+
+$ cd to the folder
+$ git init
+to make it a git repository
+
+There are three steps to commit from PC to github
+Save --> Stage --> Commit
+Save is for the saving in the file system of the PC
+Stage is to know which document we want to commit ($ git add filename.ext) 
+( $ git add . for all)
+Commit is saving in the git system ($ git commit)
+We can check the status with 
+$ git status
+
+To push the repository from local git to github, we can use the same commands
+$ git push origin master
+but we have to create the remote "origin" on github first
+
+
+
+
