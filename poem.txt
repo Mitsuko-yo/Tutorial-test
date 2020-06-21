@@ -10,3 +10,5 @@ commit = save
 Edits
 --> commit changes with comments
 More edits
+Every commit has a unique identifier: "hash"
+That's why we can track the history
