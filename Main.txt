@@ -19,3 +19,5 @@ Fork is when another person (with another account) can create a total copy of th
 issue is where we leave comments, ask questions...
 When an issue is open, it can be closed by referring the issue number in the new commit solving the issue (#issuenumber) 
 actually not closed but it will show in the issue interface the modification for #issuenumber, and then we can see the changes directly in the issue interface and close it.
+
+We can also close it automatically by writing "fixes #issuenumber" in the commit message (title)
