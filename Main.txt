@@ -1,0 +1,15 @@
+Definitions: 
+
+Repository (Repo) = project
+
+to commit = to save
+Every commit has a unique identifier called "hash"
+That's why we can track the history
+
+Branch = another path of the network to create another version that we can merge to the main called "master"
+pull-request = propose to merge branch with master
+
+To vizualize the repository progress (how many branch, fork...)
+Main code -> insight -> network 
+we can see the master and branch in a graph
+
