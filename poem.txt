@@ -13,5 +13,9 @@ More edits
 Every commit has a unique identifier: "hash"
 That's why we can track the history
 
+The branch test
+
+pull-request = propose branch to merge with master
+=======
 Main code -> insight -> network 
 we can see the master and branch in a graph
