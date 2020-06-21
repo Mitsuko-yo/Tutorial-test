@@ -13,3 +13,7 @@ To vizualize the repository progress (how many branch, fork...)
 Main code -> insight -> network 
 we can see the master and branch in a graph
 
+Fork is when another person (with another account) can create a total copy of the file, and modify the file with its master and branches.
+--> pull request to merge the document
+
+issue is where we leave comments, ask questions...
